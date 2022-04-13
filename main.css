@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    font-family: Inter;
+    box-sizing: border-box;
+}
+
+main.project {
+    width: 100%;
+    height: 500px;
+    background-image: url(assets/fundo-primeiro-tweet.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #212121;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main.project > div.project-name {
+    font-size: 6.5rem;
+    color: #f7f7f7;
+    font-weight: bold;
+    max-width: 70rem;
+    text-align: center;
+}
+
+main>.project-logo {
+    position: absolute;
+    top: 53%;
+    left: 54%;
+    width: 8%;
+}
+
+nav.main-index {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+    height: 70px;
+}
+
+nav.main-index > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav.main-index a {
+    text-decoration: none;
+    color: #212121;
+    font-size: 1.2rem;
+}
+
+nav.main-index > .visual-tweets-index > a {
+    color: #E9E8EA;
+}
+
+div.visual-tweets-index {
+    justify-self: center;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+}
+
+div.analise-index {
+    justify-self: center;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    background-color: #4AD3A8;
+}
+
+.sections {
+    background-color: white;
+}
+
+.sections > h1 {
+    margin-left: 3rem;
+    margin-top: 3rem;
+    max-width: 1300px;
+    line-height: 1.5em;
+    font-weight: 300;
+    font-size: 2.2rem;
+}
+
+.sections > h6 {
+    margin-left: 3rem;
+    width: auto;
+    line-height: 1.5em;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+section.infographic-01 {
+    display: grid;
+    margin-bottom: 3rem;
+}
+
+div.info-title {
+    line-height: 1.5em;
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+div.foto-alvaro-dias {
+    background-image: url(assets/foto-alvaro-dias.jpeg);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    filter: saturate(0);
+}
+
+div.foto-cabo-daciolo {
+    background-image: url(assets/foto-cabo-daciolo.jpeg);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    filter: saturate(0);
+}
+
+div.foto-ciro-gomes {
+    background-image: url(assets/foto-ciro-gomes.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    filter: saturate(0);
+}
+
+div.foto-fernando-haddad {
+    background-image: url(assets/foto-fernando-haddad.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    filter: saturate(0);
+}
+
+div.foto-geraldo-alckmin {
+    background-image: url(assets/foto-geraldo-alckmin.webp);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    filter: saturate(0);
+}
+
+div.foto-guilherme-boulos {
+    background-image: url(assets/foto-guilherme-boulos.webp);
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    filter: saturate(0);
+}
+
+div.foto-henrique-meirelles {
+    background-image: url(assets/foto-henrique-meirelles.jpeg);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    filter: saturate(0);
+}
+
+div.foto-jair-bolsonaro {
+    background-image: url(assets/foto-jair-bolsonaro.jpeg);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    filter: saturate(0);
+}
+
+div.foto-joao-amoedo {
+    background-image: url(assets/foto-joao-amoedo.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    filter: saturate(0);
+}
+
+div.foto-marina-silva {
+    background-image: url(assets/foto-marina-silva.jpeg);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    filter: saturate(0);
+}
+
+img.icone-candidato {
+    height: 12.5%;
+    position: absolute;
+    top: 12%;
+    left: 35%;
+}
+
+div.candidatos {
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    max-width: 100%;
+}
+
+div.candidatos > * {
+    flex-shrink: 0;
+    width: 300px;
+    position: relative;
+}
+
+.nome-do-presidenciavel {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-bottom: 1px;
+}
+
+.partido-do-presidenciavel {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.small-title {
+    color: #858585;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.nome-do-vice {
+    margin-top: 10px;
+    color: #858585;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.partido-do-vice {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #858585;
+}
+
+.space-between {height: 35px;}
+
+.pontuação-primeiro-turno {
+    margin-top: 6px;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+hr {
+    color: #858585;
+    size: 0.5px;
+}
+
+.numero-votos-validos {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #858585;
+    margin-bottom: 3rem;
+}
+
+.small-title-haddad, .small-title-bolsonaro {color: #4261EC;}
+
+.fernando-haddad > p:nth-of-type(7) {
+    color: #4261EC;
+}
+
+.fernando-haddad > p:nth-of-type(8) {
+    color: #4261EC;
+}
+
+.fernando-haddad > div.foto-candidato {
+    border: 10px solid #4261EC;
+}
+
+.jair-bolsonaro > p:nth-of-type(7) {
+    color: #4261EC;
+}
+
+.jair-bolsonaro > p:nth-of-type(8) {
+    color: #4261EC;
+}
+
+.jair-bolsonaro > div.foto-candidato {
+    border: 10px solid #4261EC;
+}
+
+section.sobre-primeiro-turno {
+    background-color: #212121;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 2fr 1fr 2fr 1fr 2fr 3fr;
+    grid-template-rows: 2fr 2fr 1fr;
+    color: #f7f7f7;
+}
+
+figure.icone-total-de-votos {
+    grid-column: 2/3;
+    place-self: center;
+}
+
+p.total-de-votos {
+    grid-column: 3/4;
+    place-self: center left;
+    font-size: 1.1rem;
+}
+
+figure.icone-votos-validos {
+    place-self: center;
+}
+
+p.votos-validos {
+    place-self: center left;
+    font-size: 1.1rem;
+}
+
+figure.icone-votos-brancos {
+    place-self: center left;
+}
+
+p.votos-brancos {
+    place-self: center left;
+    font-size: 1.1rem;
+}
+
+figure.icone-votos-nulos {
+    grid-column: 2/3;
+    grid-row-start: 2;
+    place-self: center;
+}
+
+p.votos-nulos {
+    grid-column: 3/4;
+    grid-row-start: 2;
+    place-self: center left;
+    font-size: 1.1rem;
+}
+
+figure.icone-abstenções {
+    grid-column: 4/5;
+    grid-row-start: 2;
+    place-self: center;
+}
+
+p.abstenções {
+    grid-column: 5/6;
+    grid-row-start: 2;
+    place-self: center left;
+    font-size: 1.1rem;
+}
+
+p.fontes {
+    grid-column: 1 / span 9;
+    grid-row-start: 3;
+    place-self: left center;
+    margin-left: 3rem;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.sections > h3 {
+    max-width: 800px;
+    font-size: 1.2rem;
+    margin-left: 3rem;
+    line-height: 1.5em;
+    font-weight: 300; 
+}
+
+.in-betweens {
+    height: 50px;
+}
+
+
+/*
+
+/* .candidatos {
+    overflow: auto;
+    max-widht: 100%;
+}
+
+*/
+
+/*
+
+    .fernand-haddad-e-lula {
+        position: relative;
+    }
+
+    .fernand-haddad-e-lula > .lula {
+        position: absolute; (quer dizer que a posição desse elemento é absoluta em relação ao container)
+        bottom:
+        top:
+        deslocar -> transform: translate (20% [X], 40% [Y]);
+    }
+
+*/
