@@ -217,6 +217,13 @@ img.icone-candidato {
     left: 35%;
 }
 
+img.icone-segundo-turno {
+    height: 10%;
+    position: absolute;
+    top: 1%;
+    left: 40%;
+}
+
 div.candidatos {
     margin-left: 3rem;
     display: flex;
@@ -395,26 +402,299 @@ p.fontes {
 }
 
 
-/*
-
-/* .candidatos {
-    overflow: auto;
-    max-widht: 100%;
+.chart-01 > * {
+    margin-left: 3rem;
+    color: #f7f7f7;
 }
 
-*/
+.chart-01 > div {padding: 15px 30px;}
 
-/*
+.chart-01 {
+    background-color: #4261EC;
+    width: 100%;
+    height: 800px;
+    overflow-x: auto;
+    overflow-y: visible;
+}
 
-    .fernand-haddad-e-lula {
-        position: relative;
-    }
+.chart-01 > .chart-01-infos {
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 130px 1fr;
+    height: 200px;
+    width: 100%;
+}
 
-    .fernand-haddad-e-lula > .lula {
-        position: absolute; (quer dizer que a posição desse elemento é absoluta em relação ao container)
-        bottom:
-        top:
-        deslocar -> transform: translate (20% [X], 40% [Y]);
-    }
+.chart-01 > .chart-01-infos > .icone-chart-01 {
+    grid-column-start: 1;
+    place-self: center left;
+}
 
-*/
+.chart-01 > .chart-01-infos > .chart-01-title-source {
+    grid-column-start: 2;
+    place-self: center left;
+}
+
+.chart-01-title-source :first-child {
+    line-height: 0;
+    font-weight: 400;
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+}
+
+.chart-01-title-source > h6.source-chart-01 {
+    line-height: 0;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.chart-chart {
+    position: relative;
+    height: 600px;
+    width: 2000px;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    grid-template-columns: 0.2fr 3fr;
+}
+
+.chart-chart > .escala-chart-01 {
+    grid-row: 1;
+    grid-column: 1;
+    font-size: 14px;
+    border-right: 1px solid #f7f7f7;
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-chart > .escala-chart-01 > div {
+    height: 12.5%;
+    text-align: right;
+    margin-right: 8px;
+    line-height: 0;
+}
+
+.chart-chart > .rotulos-chart-01 {
+    grid-row: 2;
+    grid-column: 2 / span 3;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
+
+.chart-chart > .rotulos-chart-01 > div {
+    flex-grow: 1;
+    flex-basis: 100%;
+    border-top: 1px solid #f7f7f7;
+    text-align: center;
+    padding: 10px;
+}
+
+.chart-chart > .barras-chart-01 {
+    grid-row: 1;
+    grid-column: 2 / span 3;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+} 
+
+.chart-chart > .barras-chart-01 > div {
+    background-color: #f7f7f7;
+    width: 40px;
+    justify-self: center;
+    border-radius: 100px 100px 0px 0px;
+    align-self: flex-end;
+} 
+
+.barras-chart-01 img.icone-barra {
+    height: 4rem;
+}
+
+.chart-chart > .barras-chart-01 > .barra-geraldo-alckmin {
+    height: 95.75%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.barra-geraldo-alckmin > .icone-barra-alckmin {
+    place-self: center;
+    position: absolute;
+    top: -80px;
+}
+
+.chart-chart > .barras-chart-01 > .barra-fernando-haddad {
+    height: 41.25%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.barra-fernando-haddad > .icone-barra-haddad {
+    place-self: center;
+    position: absolute;
+    top: -80px;
+}
+
+.chart-chart > .barras-chart-01 > .barra-henrique-meirelles {
+    height: 33.25%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.barra-henrique-meirelles > .icone-barra-meirelles {
+    place-self: center;
+    position: absolute;
+    top: -80px;
+}
+
+.chart-chart > .barras-chart-01 > .barra-alvaro-dias {
+    height: 11.5%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.barra-alvaro-dias > .icone-barra-alvaro-dias {
+    place-self: center;
+    position: absolute;
+    top: -80px;
+}
+
+.chart-chart > .barras-chart-01 > .barra-ciro-gomes {
+    height: 11%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.barra-ciro-gomes > .icone-barra-ciro {
+    place-self: center;
+    position: absolute;
+    top: -80px;
+}
+
+.chart-chart > .barras-chart-01 > .barra-marina-silva {
+    height: 6%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.barra-marina-silva > .icone-barra-marina {
+    place-self: center;
+    position: absolute;
+    top: -80px;
+}
+
+.chart-chart > .barras-chart-01 > .barra-guilherme-boulos {
+    height: 3.75%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.barra-guilherme-boulos > .icone-barra-boulos {
+    place-self: center;
+    position: absolute;
+    top: -80px;
+}
+
+.chart-chart > .barras-chart-01 > .barra-cabo-daciolo {
+    height: 2.25%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.barra-cabo-daciolo > .icone-barra-daciolo {
+    place-self: center;
+    position: absolute;
+    top: -80px;
+}
+
+.chart-chart > .barras-chart-01 > .barra-jair-bolsonaro {
+    height: 2.25%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.barra-jair-bolsonaro > .icone-barra-bolsonaro {
+    place-self: center;
+    position: absolute;
+    top: -80px;
+}
+
+.chart-chart > .barras-chart-01 > .barra-joao-amoedo {
+    height: 1.5%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.barra-joao-amoedo > .icone-barra-amoedo {
+    place-self: center;
+    position: absolute;
+    top: -80px;
+}
+
+
+
+/* a partir daqui começa o gráfico 2 – rede de epoio*/
+
+.chart-02 > * {
+    margin-left: 3rem;
+    color: #f7f7f7;
+}
+
+.chart-02 > div {padding: 15px 30px;}
+
+.chart-02 {
+    background-color: #ED6745;
+    width: 100%;
+    height: 800px;
+    overflow-x: auto;
+    overflow-y: visible;
+}
+
+.chart-02 > .chart-02-infos {
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 130px 1fr;
+    height: 200px;
+    width: 100%;
+}
+
+.chart-02 > .chart-02-infos > .icone-chart-02 {
+    grid-column-start: 1;
+    place-self: center left;
+}
+
+.chart-02 > .chart-02-infos > .chart-02-title-source {
+    grid-column-start: 2;
+    place-self: center left;
+}
+
+.chart-02-title-source :first-child {
+    line-height: 0;
+    font-weight: 400;
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+}
+
+.chart-02-title-source > h6.source-chart-02 {
+    line-height: 0;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.frame-chart-02 {
+    overflow: auto;
+    width: 100%;
+    height: auto;
+}
+
+div.file-chart-02 {}
