@@ -79,6 +79,11 @@ div.analise-index {
     background-color: white;
 }
 
+.sections > hr {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
 .sections > h1 {
     margin-left: 3rem;
     margin-top: 3rem;
@@ -355,7 +360,7 @@ p.votos-nulos {
     font-size: 1.1rem;
 }
 
-figure.icone-abstenções {
+figure.icone-abstencoes {
     grid-column: 4/5;
     grid-row-start: 2;
     place-self: center;
