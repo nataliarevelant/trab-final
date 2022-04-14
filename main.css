@@ -361,7 +361,7 @@ figure.icone-abstenções {
     place-self: center;
 }
 
-p.abstenções {
+p.abstencoes {
     grid-column: 5/6;
     grid-row-start: 2;
     place-self: center left;
