@@ -401,10 +401,9 @@ p.fontes {
     height: 50px;
 }
 
-
 .chart-01 > * {
-    margin-left: 3rem;
     color: #f7f7f7;
+    border: 1px solid hotpink;
 }
 
 .chart-01 > div {padding: 15px 30px;}
@@ -412,9 +411,7 @@ p.fontes {
 .chart-01 {
     background-color: #4261EC;
     width: 100%;
-    height: 800px;
-    overflow-x: auto;
-    overflow-y: visible;
+    height: 1000px;
 }
 
 .chart-01 > .chart-01-infos {
@@ -424,11 +421,13 @@ p.fontes {
     grid-template-columns: 130px 1fr;
     height: 200px;
     width: 100%;
+    position: relative;
 }
 
 .chart-01 > .chart-01-infos > .icone-chart-01 {
     grid-column-start: 1;
     place-self: center left;
+    margin-left: 1rem;
 }
 
 .chart-01 > .chart-01-infos > .chart-01-title-source {
@@ -449,9 +448,21 @@ p.fontes {
     font-size: 1rem;
 }
 
+.chart-01-title-source > img.chart-01-icone-scroll {
+    position: absolute;
+    left: 60rem;
+    top: 5rem;
+}
+
+.frame-chart-chart {
+    width: 100%;
+    height: 1200px;
+    overflow: auto;
+}
+
 .chart-chart {
     position: relative;
-    height: 600px;
+    height: 800px;
     width: 2000px;
     display: grid;
     grid-template-rows: 3fr 1fr;
@@ -645,7 +656,6 @@ p.fontes {
 /* a partir daqui começa o gráfico 2 – rede de epoio*/
 
 .chart-02 > * {
-    margin-left: 3rem;
     color: #f7f7f7;
 }
 
@@ -655,8 +665,7 @@ p.fontes {
     background-color: #ED6745;
     width: 100%;
     height: 800px;
-    overflow-x: auto;
-    overflow-y: visible;
+    overflow: auto;
 }
 
 .chart-02 > .chart-02-infos {
@@ -671,11 +680,13 @@ p.fontes {
 .chart-02 > .chart-02-infos > .icone-chart-02 {
     grid-column-start: 1;
     place-self: center left;
+    margin-left: 1rem;
 }
 
 .chart-02 > .chart-02-infos > .chart-02-title-source {
     grid-column-start: 2;
     place-self: center left;
+    position: relative;
 }
 
 .chart-02-title-source :first-child {
@@ -689,6 +700,12 @@ p.fontes {
     line-height: 0;
     font-weight: 300;
     font-size: 1rem;
+}
+
+.chart-02-title-source > img.chart-02-icone-scroll {
+    position: absolute;
+    left: 55rem;
+    top: 3rem;
 }
 
 .frame-chart-02 {
