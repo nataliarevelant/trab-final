@@ -125,6 +125,11 @@ div.foto-alvaro-dias {
     filter: saturate(0);
 }
 
+div.candidatos .foto-candidato:hover {
+    filter: saturate(1);
+}
+
+
 div.foto-cabo-daciolo {
     background-image: url(assets/foto-cabo-daciolo.jpeg);
     background-size: cover;
@@ -528,10 +533,20 @@ p.fontes {
     position: relative;
 }
 
-.barra-geraldo-alckmin > .icone-barra-alckmin {
+.barra-geraldo-alckmin > .icone-barra-alckmin, .pop-up-alckmin {
     place-self: center;
     position: absolute;
     top: -80px;
+}
+
+.barra-geraldo-alckmin > .pop-up-alckmin {
+    left: 60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.icone-barra-alckmin:hover ~ .pop-up-alckmin {
+    opacity: 1;
 }
 
 .chart-chart > .barras-chart-01 > .barra-fernando-haddad {
