@@ -408,7 +408,6 @@ p.fontes {
 
 .chart-01 > * {
     color: #f7f7f7;
-    border: 1px solid hotpink;
 }
 
 .chart-01 > div {padding: 15px 30px;}
@@ -533,11 +532,12 @@ p.fontes {
     position: relative;
 }
 
-.barra-geraldo-alckmin > .icone-barra-alckmin, .pop-up-alckmin {
+/* .barra-geraldo-alckmin > .icone-barra-alckmin, .pop-up-alckmin {
     place-self: center;
     position: absolute;
     top: -80px;
 }
+*/
 
 .barra-geraldo-alckmin > .pop-up-alckmin {
     left: 60px;
