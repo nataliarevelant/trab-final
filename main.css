@@ -730,4 +730,253 @@ p.fontes {
     height: auto;
 }
 
-div.file-chart-02 {}
+/* a partir daqui é o gráfico 3 */
+
+.chart-03 > * {
+    color: #f7f7f7;
+}
+
+.chart-03 > div {padding: 15px 30px;}
+
+.chart-03 {
+    background-color: #754FE8;
+    width: 100%;
+    height: 1000px;
+}
+
+.chart-03 > .chart-03-infos {
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 130px 1fr;
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+
+.chart-03 > .chart-03-infos > .icone-chart-03 {
+    grid-column-start: 1;
+    place-self: center left;
+    margin-left: 1rem;
+}
+
+.chart-03 > .chart-03-infos > .chart-03-title-source {
+    grid-column-start: 2;
+    place-self: center left;
+}
+
+.chart-03-title-source :first-child {
+    line-height: 0;
+    font-weight: 400;
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+}
+
+.chart-03-title-source > h6.source-chart-03 {
+    line-height: 0;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.chart-03-title-source > img.chart-03-icone-scroll {
+    position: absolute;
+    left: 60rem;
+    top: 5rem;
+}
+
+.frame-chart-chart-03 {
+    width: 100%;
+    height: 1200px;
+    overflow: auto;
+}
+
+.chart-chart-03 {
+    position: relative;
+    height: 800px;
+    width: 2000px;
+    display: grid;
+    grid-template-rows: 3fr 0.8fr;
+    grid-template-columns: 0.2fr 3fr;
+}
+
+.chart-chart-03 > .escala-chart-03 {
+    grid-row: 1;
+    grid-column: 1;
+    font-size: 14px;
+    border-right: 1px solid #f7f7f7;
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-chart-03 > .escala-chart-03 > div {
+    height: 14.28%;
+    text-align: right;
+    margin-right: 8px;
+    line-height: 0;
+}
+
+.chart-chart-03 > .rotulos-chart-03 {
+    grid-row: 2;
+    grid-column: 2 / span 3;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
+
+.chart-chart-03 > .rotulos-chart-03 > div {
+    flex-grow: 1;
+    flex-basis: 100%;
+    border-top: 1px solid #f7f7f7;
+    text-align: center;
+    padding: 10px;
+}
+
+.chart-chart-03 > .barras-chart-03 {
+    grid-row: 1;
+    grid-column: 2 / span 3;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+} 
+
+.chart-chart-03 > .barras-chart-03 > div {
+    background-color: #f7f7f7;
+    width: 40px;
+    justify-self: center;
+    border-radius: 100px 100px 0px 0px;
+    align-self: flex-end;
+} 
+
+.barras-chart-03 img.icone-barra {
+    height: 4rem;
+}
+
+.chart-chart-03 > .barras-chart-03 > .barra-henrique-meirelles {
+    height: 86%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.barras-chart-03 > .barra-henrique-meirelles > .icone-barra-meirelles {
+    place-self: center;
+    position: absolute;
+    top: -80px;
+}
+
+.chart-chart-03 > .barras-chart-03 > .barra-geraldo-alckmin {
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.barras-chart-03 > .barra-geraldo-alckmin > .icone-barra-alckmin {
+    place-self: center;
+    position: absolute;
+    top: -80px;
+}
+
+.chart-chart-03 > .barras-chart-03 > .barra-ciro-gomes {
+    height: 11%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.barras-chart-03 > .barra-ciro-gomes > .icone-barra-ciro {
+    place-self: center;
+    position: absolute;
+    top: -80px;
+}
+
+.chart-chart-03 > .barras-chart-03 > .barra-fernando-haddad {
+    height: 41.25%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.barras-chart-03 > .barra-fernando-haddad > .icone-barra-haddad {
+    place-self: center;
+    position: absolute;
+    top: -80px;
+}
+
+.chart-chart-03 > .barras-chart-03 > .barra-alvaro-dias {
+    height: 11.5%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.barras-chart-03 > .barra-alvaro-dias > .icone-barra-alvaro-dias {
+    place-self: center;
+    position: absolute;
+    top: -80px;
+}
+
+.chart-chart-03 > .barras-chart-03 > .barra-marina-silva {
+    height: 6%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.barras-chart-03 > .barra-marina-silva > .icone-barra-marina {
+    place-self: center;
+    position: absolute;
+    top: -80px;
+}
+
+.chart-chart-03 > .barras-chart-03 > .barra-guilherme-boulos {
+    height: 3.75%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.barras-chart-03 > .barra-guilherme-boulos > .icone-barra-boulos {
+    place-self: center;
+    position: absolute;
+    top: -80px;
+}
+
+.chart-chart-03 > .barras-chart-03 > .barra-cabo-daciolo {
+    height: 2.25%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.barras-chart-03 > .barra-cabo-daciolo > .icone-barra-daciolo {
+    place-self: center;
+    position: absolute;
+    top: -80px;
+}
+
+.chart-chart-03 > .barras-chart-03 > .barra-jair-bolsonaro {
+    height: 2.25%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.barras-chart-03 > .barra-jair-bolsonaro > .icone-barra-bolsonaro {
+    place-self: center;
+    position: absolute;
+    top: -80px;
+}
+
+.chart-chart-03 > .barras-chart-03 > .barra-joao-amoedo {
+    height: 1.5%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.barras-chart-03 > .barra-joao-amoedo > .icone-barra-amoedo {
+    place-self: center;
+    position: absolute;
+    top: -80px;
+}
