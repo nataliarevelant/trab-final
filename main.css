@@ -532,12 +532,11 @@ p.fontes {
     position: relative;
 }
 
-/* .barra-geraldo-alckmin > .icone-barra-alckmin, .pop-up-alckmin {
+.barra-geraldo-alckmin > .icone-barra-alckmin, /*.pop-up-alckmin */{
     place-self: center;
     position: absolute;
     top: -80px;
 }
-*/
 
 .barra-geraldo-alckmin > .pop-up-alckmin {
     left: 60px;
